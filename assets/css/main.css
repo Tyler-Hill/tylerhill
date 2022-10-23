@@ -21,17 +21,16 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: 'Comic Sans MS', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header {
-    background-image: url('./../images/Skyrim.jpg');
-    background-repeat: no-repeat;
+    background-image:
+        background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-emphasis-color: red;
 }
 
 header,
@@ -43,8 +42,6 @@ footer {
 main {
     flex-grow: 1;
 }
-
-
 
 
 
