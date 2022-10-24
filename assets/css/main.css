@@ -16,17 +16,22 @@ body {
 
 /* Element selectors */
 
-
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(-45deg, #ffffff, #fcfcfc);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
 }
 
 header {
-    background-image:
-        background-repeat: no-repeat;
+    /* background stuff is exlcuded temporarily to save the code */
+    /* background-image: */
+    /* background-repeat: no-repeat; */
+    background-color: beige;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -43,7 +48,11 @@ main {
     flex-grow: 1;
 }
 
-
+img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
 
 /* classes */
 .mt- {
@@ -54,4 +63,60 @@ main {
 
 .pt {
     padding-top: 1.5rem;
+}
+
+
+/* id's */
+
+#navbar {
+    font-weight: bold;
+    color: white !important;
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+}
+
+#aboutnav {
+    color: black;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+    text-decoration: none;
+}
+
+#worknav {
+    color: black;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+    text-decoration: none;
+}
+
+#contactnav {
+    color: black;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+    text-decoration: none;
+}
+
+#about {
+    background-color: gray;
+    text-align: center;
+    color: black;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+}
+
+#work {
+    background-color: gray;
+    text-align: center;
+    color: black;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+}
+
+#contact {
+    background-color: gray;
+    text-align: center;
+    color: black;
+    margin: 0px 0 20px 0;
+    padding: 50px;
 }
