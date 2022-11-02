@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyler's Portfolio</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-
+    <link rel="normalizesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/main2.css">
 </head>
 
-<body>
+<body class="d-flex flexdir-column h-100 fontfam border-5solred maxwidth-1200 mar-2auto">
     <!-- header, top bun -->
-    <header>
+    <header class="bgc-white bgs-c d-flex">
         <!-- name to the left -->
         <h1>Tyler Hill</h1>
         <div>
@@ -26,12 +26,15 @@
     </header>
 
     <!-- main, meat -->
-    <main>
+    <main class="gap15 f-1 flexwrap-wrap mar-2auto">
 
+        <section>
+            <img src="assets/images/linkedin pic 11.jpg" alt="tyler in a suit" height="200" width="150">
+
+
+        </section>
         <!-- about -->
-        <section id="about">
-            <img style="float: right;" src="assets/images/linkedin pic 11.jpg" alt="tyler in a suit" height="200"
-                width="150">
+        <section id="about" class="border-5solred f-1025 mar-2auto">
             <h2>About</h2>
             <h3>A recent student of full-stack coding!</h3>
             <p>I am a graduate of Loyola University Chicago, with a degree in Entrepreneurship and Marketing. I was also
@@ -41,27 +44,53 @@
         </section>
 
         <!-- Work:five image place holders of future projects. homework links -->
-        <section id="work" class="pt">
-            <h2>Work</h2>
-            <!--TODO: put screenshot of horiseon website done in hw1 -->
-            <h3>Homework 1</h3>
-            <img src="assets/images/JC BABY.jpg" alt="horiseon website" height="100" width="150">
-        </section>
+        <div class="d-flex f-1 flexwrap-wrap mar-2auto gap15 maxwidth-1200 txtalgn-center">
+            <section id="work" class="border-5solred f-1025 mar-2auto d-block">
+                <h2>Work</h2>
 
+                <h3>Homework 1</h3>
+                <p>Horiseon website</p>
+                <img src="assets/images/JC BABY.jpg" alt="horiseon website" height="100" width="150">
+            </section>
+            <section id="work" class="border-5solred f-1025 mar-2auto d-block">
+                <h2>Work</h2>
+
+                <h3>Homework 1</h3>
+                <p>Horiseon website</p>
+                <img src="assets/images/JC BABY.jpg" alt="horiseon website" height="100" width="150">
+            </section>
+            <section id="work" class="border-5solred f-1025 mar-2auto d-block">
+                <h2>Work</h2>
+
+                <h3>Homework 1</h3>
+                <p>Horiseon website</p>
+                <img src="assets/images/JC BABY.jpg" alt="horiseon website" height="100" width="150">
+            </section>
+            <section id="work" class="border-5solred f-1025 mar-2auto d-block">
+                <h2>Work</h2>
+
+                <h3>Homework 1</h3>
+                <p>Horiseon website</p>
+                <img src="assets/images/JC BABY.jpg" alt="horiseon website" height="100" width="150">
+            </section>
+            <section id="work" class="border-5solred f-1025 mar-2auto d-block">
+                <h2>Work</h2>
+
+                <h3>Homework 1</h3>
+                <p>Horiseon website</p>
+                <img src="assets/images/JC BABY.jpg" alt="horiseon website" height="100" width="150">
+            </section>
+        </div>
         <!-- contact info (Github, Linkedin, etc)-->
-        <section id="contact" class="pt">
+        <section id="contact" class="border-5solred mar-2auto">
             <h2>Contact</h2>
             <a href="https://github.com/Tyler-Hill">Github</a>
             <div></div>
             <a href="https://www.linkedin.com/in/tyler-richard-hill/">LinkedIn</a>
-            <a href=""></a>
         </section>
-
     </main>
-
-    <!-- footer, bottom bun -->
+    <!-- footer -->
     <footer>
-        <section>Tyler Hill 2022</section>
     </footer>
 </body>
 
@@ -70,3 +99,4 @@
 <!-- look at normalize.css -->
 <!-- look how to do a full website with fixed footer -->
 <!-- maybe look into how to get the website to scroll slowly when clicking on nav buttons -->
+<!-- used this link for formatting help: https://codepen.io/redhddone/pen/zoMYXZ?editors=1100 -->

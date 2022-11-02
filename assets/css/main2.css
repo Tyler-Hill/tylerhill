@@ -1,0 +1,124 @@
+/* borders */
+
+.border-5solred {
+    border: 1px solid red;
+}
+
+/* backgrounds */
+.bgc-gray {
+    background-color: gray;
+}
+
+.bgc-white {
+    background-color: white;
+}
+
+.bgs-c {
+    background-size: cover;
+}
+
+/* colors */
+
+.c-white {
+    color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+/* display */
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* text */
+.fontfam {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fwbold {
+    font-weight: bold;
+}
+
+.txtdecor-none {
+    text-decoration: none;
+}
+
+.txtalgn-center {
+    text-align: center;
+}
+
+/* flex */
+.flexdir-column {
+    flex-direction: column;
+}
+
+.flexwrap-wrap {
+    flex-wrap: wrap;
+}
+
+.flexdir-row {
+    flex-direction: row;
+}
+
+.f-gr {
+    flex-grow: 1;
+}
+
+.f-1 {
+    flex: 1;
+}
+
+.f-1025 {
+    flex: 1 0 25%;
+}
+
+/* spacing */
+
+.alit-cen {
+    align-items: center;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.jstct-spcbtw {
+    justify-content: space-between;
+}
+
+.p-15r {
+    padding: 1.5rem;
+}
+
+/* margins */
+
+.mar-lauto {
+    margin-left: auto;
+}
+
+.mar-rauto {
+    margin-right: auto;
+}
+
+.mar-bot2 {
+    margin-bottom: 2rem;
+}
+
+.maxwidth-1200 {
+    max-width: 1200px;
+}
+
+.mar-2auto {
+    margin: 2% auto;
+}
+
+.gap15 {
+    gap: 1.5rem;
+}
