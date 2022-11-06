@@ -1,125 +1,210 @@
-/* wire frame: TODO Delete later */
-header,
-main,
-footer {
-    border: 5px solid navy;
-    max-width: 1200px;
-    margin: 2% auto;
-}
+/* borders */
 
-/* Element selectors */
-
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(-45deg, #ffffff, #fcfcfc);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-}
-
-header {
-    /* background stuff is exlcuded temporarily to save the code */
-    /* background-image: */
-    /* background-repeat: no-repeat; */
-    background-color: beige;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header,
-main,
-footer {
-    padding: 1.5rem;
-}
-
-main {
-    flex-grow: 1;
-}
-
-img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2em;
-}
-
-section {
+.border-5solred {
     border: 1px solid red;
-    flex: 1 0 25%;
 }
 
-/* classes */
-.mt- {
-    margin-top: 0.75rem;
+/* backgrounds */
+.bgc-gray {
+    background-color: gray;
 }
 
-
-
-.pt {
-    padding-top: 1.5rem;
+.bgc-white {
+    background-color: white;
 }
 
-.row {
+.bgs-c {
+    background-size: cover;
+}
+
+.bgc-gradient {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 800%;
+    animation: gradient 15s ease infinite;
+    height: 500vh;
+}
+
+.bgp-chicago {
+    background-image: url("../images/ChiBackground.jpg");
+    background-size: cover;
+
+}
+
+.bgp-jazz {
+    background-image: url("../images/JAZZ.jpg");
+    background-size: cover;
+
+}
+
+/* colors */
+
+.c-white {
+    color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+/* display */
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
     display: flex;
-    flex-direction: row;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inlineflex {
+    display: inline-flex;
+}
+
+/* text */
+.fontfam {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fonts-large {
+    font-size: 20px;
+}
+
+.fwbold {
+    font-weight: bold;
+}
+
+.txtdecor-none {
+    text-decoration: none;
+}
+
+.txtalgn-center {
+    text-align: center;
+}
+
+.txtalgn-right {
+    text-align: right;
+}
+
+/* flex */
+.flexdir-column {
+    flex-direction: column;
+}
+
+.flexwrap-wrap {
     flex-wrap: wrap;
 }
 
-/* id's */
-
-#navbar {
-    font-weight: bold;
-    color: white !important;
-    position: relative;
-    width: 100%;
-    list-style-type: none;
+.flexdir-row {
+    flex-direction: row;
 }
 
-#aboutnav {
-    color: black;
-    margin: 0px 0 20px 0;
-    padding: 50px;
-    text-decoration: none;
+.f-gr {
+    flex-grow: 1;
 }
 
-#worknav {
-    color: black;
-    margin: 0px 0 20px 0;
-    padding: 50px;
-    text-decoration: none;
+.f-1 {
+    flex: 1;
 }
 
-#contactnav {
-    color: black;
-    margin: 0px 0 20px 0;
-    padding: 50px;
-    text-decoration: none;
+.f-1025 {
+    flex: 1 0 25%;
 }
 
-#about {
-    background-color: gray;
-    text-align: center;
-    color: black;
-    margin: 0px 0 20px 0;
-    padding: 50px;
+/* spacing */
+.img-align {
+    vertical-align: top;
 }
 
-#work {
-    background-color: gray;
-    text-align: center;
-    color: black;
-    margin: 0px 0 20px 0;
-    padding: 50px;
+.alit-cen {
+    align-items: center;
 }
 
-#contact {
-    background-color: gray;
-    text-align: center;
-    color: black;
-    margin: 0px 0 20px 0;
-    padding: 50px;
+.bspace-50 {
+    border-spacing: 50px;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.p-15r {
+    padding: 1.5rem;
+}
+
+.p-25r {
+    padding: 2.5rem;
+}
+
+.pad-020 {
+    padding: 0 20px;
+}
+
+.padright-40 {
+    padding-right: 40px;
+}
+
+.ptop-20 {
+    padding-top: 20px;
+}
+
+.pbot-20 {
+    padding-bottom: 20px;
+}
+
+.wid-80 {
+    width: 80%;
+}
+
+/* margins */
+
+.mar-lauto {
+    margin-left: auto;
+}
+
+.mar-rauto {
+    margin-right: auto;
+}
+
+.mar-top {
+    margin-top: 2.5rem;
+}
+
+.mar-bot2 {
+    margin-bottom: 2rem;
+}
+
+.maxwidth-1200 {
+    max-width: 1200px;
+}
+
+.mar-20auto {
+    margin: 20px auto;
+}
+
+.gap15 {
+    gap: 1.5rem;
+}
+
+/* styling */
+
+.list-none {
+    list-style: none;
+}
+
+/* navigation */
+
+html {
+    scroll-behavior: smooth;
 }
