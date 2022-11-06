@@ -37,9 +37,21 @@
     display: flex;
 }
 
+.d-inline {
+    display: inline;
+}
+
+.d-inlineflex {
+    display: inline-flex;
+}
+
 /* text */
 .fontfam {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.fonts-large {
+    font-size: 20px;
 }
 
 .fwbold {
@@ -52,6 +64,10 @@
 
 .txtalgn-center {
     text-align: center;
+}
+
+.txtalgn-right {
+    text-align: right;
 }
 
 /* flex */
@@ -80,21 +96,52 @@
 }
 
 /* spacing */
+.img-align {
+    vertical-align: top;
+}
 
 .alit-cen {
     align-items: center;
+}
+
+.bspace-50 {
+    border-spacing: 50px;
 }
 
 .h-100 {
     height: 100px;
 }
 
-.jstct-spcbtw {
+.jc-sb {
     justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
 }
 
 .p-15r {
     padding: 1.5rem;
+}
+
+.p-25r {
+    padding: 2.5rem;
+}
+
+.pad-020 {
+    padding: 0 20px;
+}
+
+.padright-40 {
+    padding-right: 40px;
+}
+
+.ptop-20 {
+    padding-top: 20px;
+}
+
+.wid-80 {
+    width: 80%;
 }
 
 /* margins */
@@ -107,6 +154,10 @@
     margin-right: auto;
 }
 
+.mar-top {
+    margin-top: 2.5rem;
+}
+
 .mar-bot2 {
     margin-bottom: 2rem;
 }
@@ -115,10 +166,16 @@
     max-width: 1200px;
 }
 
-.mar-2auto {
-    margin: 2% auto;
+.mar-20auto {
+    margin: 20px auto;
 }
 
 .gap15 {
     gap: 1.5rem;
+}
+
+/* styling */
+
+.list-none {
+    list-style: none;
 }
