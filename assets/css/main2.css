@@ -19,14 +19,21 @@
 
 .bgc-gradient {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+    background-size: 800%;
     animation: gradient 15s ease infinite;
-    height: 100vh;
+    height: 500vh;
 }
 
 .bgp-chicago {
     background-image: url("../images/ChiBackground.jpg");
     background-size: cover;
+
+}
+
+.bgp-jazz {
+    background-image: url("../images/JAZZ.jpg");
+    background-size: cover;
+
 }
 
 /* colors */
@@ -194,4 +201,10 @@
 
 .list-none {
     list-style: none;
+}
+
+/* navigation */
+
+html {
+    scroll-behavior: smooth;
 }
