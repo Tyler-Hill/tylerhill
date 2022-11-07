@@ -139,6 +139,10 @@
     justify-content: center;
 }
 
+.p-1r {
+    padding: 1rem;
+}
+
 .p-15r {
     padding: 1.5rem;
 }
