@@ -1,9 +1,10 @@
 import React from "react";
-import LinkedInPic from "../assets/linkedin pic 11.jpg";
+import LinkedInPic from "../assets/images/linkedin pic 11.jpg";
+import "../assets/css/main.css";
 
 function About() {
   return (
-    <div>
+    <div className="bgp-chicago">
       <section>
         <h1>Tyler Hill</h1>
         <img src={LinkedInPic} alt="tyler in a suit" height="400" width="300"></img>
