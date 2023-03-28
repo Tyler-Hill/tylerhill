@@ -1,11 +1,12 @@
 import React from "react";
+import LinkedInPic from "../assets/linkedin pic 11.jpg";
 
 function About() {
   return (
     <div>
       <section>
         <h1>Tyler Hill</h1>
-        <img src="assets/images/linkedin pic 11.jpg" alt="tyler in a suit" height="400" width="300"></img>
+        <img src={LinkedInPic} alt="tyler in a suit" height="400" width="300"></img>
       </section>
       <section>
         <h2>About</h2>

@@ -1,4 +1,5 @@
 import React from "react";
+import HoriseonImage from "../assets/Horiseon Website.PNG";
 
 function Projects() {
   return (
@@ -8,7 +9,7 @@ function Projects() {
         <div>
           <h3>Challenge 1</h3>
           <a href="https://tyler-hill.github.io/Challenge-1/">
-            <img src="../assets/images/Horiseon Website.png" alt="horiseon website" height="200" width="300"></img>
+            <img src={HoriseonImage} alt="horiseon website" height="200" width="300" />
           </a>
           <p>The Horiseon website</p>
         </div>
