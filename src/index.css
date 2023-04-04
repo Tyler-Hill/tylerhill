@@ -1,15 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #010101;
   --secondary: #31343D;
   --tertiary: #b12704;
   --light: #fafafa;
-  --dark: #799FBA;
-  --darker: #1F3B60;
+  --dark: #2f3336;
+  --darker: #08090a;
   --alpha: rgba(255,255,255,.7);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -185,10 +189,11 @@ header img {
 }
 
 nav {
-  position: relative;
-  font-family: 'Georgia', serif;
-  font-size: 2.5rem;
-  margin: 30px 20px;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  
+  font-size: 1.25rem;
+  margin: 10px 10px;
 }
 
 nav a:hover {
@@ -365,8 +370,8 @@ textarea {
     position: static;
     display: block;
     z-index: 100;
-    margin: 0 10px;
-    font-size: 2rem;
+    margin: 10 10px;
+    font-size: 1.25rem;
   }
   header h1 {
     display: block;
@@ -378,8 +383,8 @@ textarea {
     position: static;
     display: block;
     z-index: 100;
-    margin: 0 10px;
-    font-size: 1.3rem;
+    margin: 10 10px;
+    font-size: 1.25rem;
   }
   header h1 {
     display: block;
