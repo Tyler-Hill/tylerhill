@@ -9,6 +9,7 @@ function App() {
     {
       name: "Home",
     },
+    { name: "about" },
     { name: "portfolio" },
     { name: "contact" },
     {

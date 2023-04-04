@@ -39,7 +39,7 @@ const ProjectsList = ({}) => {
     },
   ];
   return (
-    <div className="projects-list flex-row">
+    <div className="projects-list flex-row flex-center">
       {projects.map((project, index) => (
         <ProjectCard key={index} project={project} />
       ))}
