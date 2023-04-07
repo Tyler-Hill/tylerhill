@@ -4,7 +4,7 @@ import "../../assets/css/main.css";
 
 function About() {
   return (
-    <div className="bgp-chicago">
+    <div className="bgp-chicago" id="about">
       <section>
         <img src={LinkedInPic} alt="tyler in a suit" height="400" width="300"></img>
       </section>

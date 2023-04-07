@@ -5,7 +5,7 @@ import takez from "../../assets/images/hot_takez_page.JPG";
 import codingQuiz from "../../assets/images/coding_quiz.PNG";
 import employeeTracker from "../../assets/images/SQL_EMPLOYEE_TRACKER.JPG";
 
-const ProjectsList = ({}) => {
+const ProjectsList = () => {
   let projects = [
     {
       title: "Attak-Tracker",
@@ -39,7 +39,7 @@ const ProjectsList = ({}) => {
     },
   ];
   return (
-    <div className="projects-list flex-row flex-center">
+    <div className="projects-list flex-row flex-center" id="projectlist">
       {projects.map((project, index) => (
         <ProjectCard key={index} project={project} />
       ))}

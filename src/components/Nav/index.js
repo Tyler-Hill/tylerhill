@@ -1,24 +1,36 @@
-import React, { useEffect } from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import React, { useState } from "react";
+import styled from "styled-components";
+import { GiCandleFlame } from "react-icons/gi";
 
-function Nav(props) {
-  const { pages = [], setCurrentPage, currentPage } = props;
-
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentPage.name);
-  }, [currentPage]);
-
+const Header = () => {
+  const [bar, setBar] = useState(false);
   return (
-    <nav>
-      <ul className="flex-row">
-        {pages.map((Page) => (
-          <li className={`mx-2 ${currentPage.name === Page.name && "navActive"}`} key={Page.name}>
-            <span onClick={() => setCurrentPage(Page)}>{capitalizeFirstLetter(Page.name)}</span>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <section>
+      <div className="flex-row nav flex-end">
+        <span className="green">
+          <GiCandleFlame />
+        </span>
+        <span>
+          <a href="#home">Home</a>
+        </span>
+        <span>
+          <a href="#about">Services</a>
+        </span>
+        <span>
+          <a href="#projectlist">Projects</a>
+        </span>
+        <span>
+          <a href="#contact">Testimonials</a>
+        </span>
+        <span>
+          <a href="#resume">Portfolio</a>
+        </span>
+        <div onClick={() => setBar(!bar)} className="bars">
+          <div className="bar"></div>
+        </div>
+      </div>
+    </section>
   );
-}
+};
 
-export default Nav;
+export default Header;
